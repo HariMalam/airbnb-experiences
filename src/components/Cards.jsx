@@ -15,10 +15,11 @@ function Cards() {
         <div className="details">
           <div className="ratting">
             <img src={star} alt="" />
-            &nbsp; 5.0 &nbsp;
-            <span className='light-color'>
-              (6) &middot; USA
+            <span>5.0</span>
+            <span className='grey'>
+              (6) &middot;
             </span>
+            <span className='grey'>USA</span>
           </div>
           <div className="line">
             Life lessons with Katie Zaferes
@@ -30,17 +31,18 @@ function Cards() {
       </div>
 
       <div className="card">
-      <div className="tag">ONLINE</div>
+        <div className="tag">ONLINE</div>
         <div className="img">
           <img src={wedding} alt="" />
         </div>
         <div className="details">
           <div className="ratting">
             <img src={star} alt="" />
-            &nbsp; 5.0 &nbsp;
-            <span className='light-color'>
-              (30) &middot; USA
+            <span>5.0</span>
+            <span className='grey'>
+              (30) &middot; 
             </span>
+            <span className='grey'>USA</span>
           </div>
           <div className="line">
             Learn wedding photography
@@ -58,10 +60,11 @@ function Cards() {
         <div className="details">
           <div className="ratting">
             <img src={star} alt="" />
-            &nbsp; 4.8 &nbsp;
-            <span className='light-color'>
-              (2) &middot; USA
+            <span>4.8</span>
+            <span className='grey'>
+              (2) &middot; 
             </span>
+            <span className='grey'>USA</span>
           </div>
           <div className="line">
             Group Mountain Biking
