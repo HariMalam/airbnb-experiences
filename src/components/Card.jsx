@@ -2,6 +2,8 @@ import React from 'react'
 import star from '../images/Star.svg'
 
 function Card(props) {
+    console.log(props
+    )
     return (
         <div className="card">
             {props.tag && <div className="tag">{props.tag}</div>}
